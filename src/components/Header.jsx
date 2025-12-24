@@ -5,12 +5,12 @@ function Header() {
     <header>
          <Navbar expand="lg" variant="dark" bg='dark'>
       <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="#home">p<span style ={{textTransform:'lowercase'}}>i</span>x&#8455;l<sup>&#174;</sup></Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#home"><i class="fa-solid fa-cart-shopping"></i></Nav.Link>
-            <Nav.Link href="#link"><i class="fa-solid fa-user"></i></Nav.Link>
+            <Nav.Link href="#home"><i className="fa-solid fa-cart-shopping"></i></Nav.Link>
+            <Nav.Link href="#link"><i className="fa-solid fa-user"></i></Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Container>

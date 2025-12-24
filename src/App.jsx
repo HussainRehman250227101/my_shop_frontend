@@ -1,6 +1,10 @@
 import Header from './components/Header'
 import Footer from './components/Footer'
-import { Container,Row,Col } from 'react-bootstrap'
+import { Container} from 'react-bootstrap'
+import HomeScreen from './screens/HomeScreen'
+
+
+
 import './App.css'
 
 function App() {
@@ -8,11 +12,11 @@ function App() {
 
   return (
     <>
-     <Header></Header>
+      <Header/>
       <Container>
-        container
+      <HomeScreen/>
       </Container>
-     <Footer></Footer>
+      <Footer/>
     </>
   )
 }
