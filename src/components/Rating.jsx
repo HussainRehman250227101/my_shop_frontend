@@ -37,7 +37,7 @@ function Rating({ value, text }) {
           : value >= 4.5
             ? "fa-solid fa-star-half-stroke"
             : "fa-regular fa-star"
-      }></i></span><span>({value}) </span>
+      }></i></span><span>  ({value}) ratings </span>
       
       <div>
         <a href="" className='text-info text-decoration-none'>{text}</a>
