@@ -4,7 +4,7 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import HomeScreen from './screens/HomeScreen'
 import ProductScreen from './screens/ProductScreen'
-import products from './products.js'
+
 
 const router = createBrowserRouter([
   {
